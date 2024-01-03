@@ -1,0 +1,278 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    
+
+ 
+<style> 
+     
+    table.tb,.tb td{
+         
+        
+    }
+    .tb td:hover{
+        background-image: url( background.jpg);
+        color:black;
+        font-size: 60PX;
+        
+    }
+    .tb tr,.tb td,.tb th{
+       width:150px;
+                
+                 
+                padding:20px
+    }
+    .tb th{
+        font-family:serif;
+        font-size: 60px;
+        background-color: lightblue;
+        
+         
+    }
+     .container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);  
+  color: white; 
+  width: 186%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 60px;
+    
+  padding: 80px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+    
+    }
+     
+    
+    
+    #demo09:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+        float: right;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+    #demo10{
+        text-decoration: none;
+        color:black;
+        float: left;
+         }
+    #demo11{
+        float: right;
+        height: 60px;
+        width: 80px;
+         background-color:lightgray;
+        border-radius:5px;
+    }
+    #demo11:hover{
+        transform: scale(0.8);
+    }
+    
+    
+    
+</style>
+</head>
+	
+ 
+<body style="background-color:white;background-size: cover">
+
+<header>
+	
+<nav>
+	<div class="logo">  <h1 style="font-size: 50px;font-family: cursive;color:darkgreen;"> Travellers.com     </h1> </div>
+	<div class="menu">
+		<a style="color: black" href="main.html">Home</a>
+		<a style="color: black" href="https://indiatravel.com/" target="_blank">about</a> 
+        <a style="color: black" href=restaurents.html>RESTAURANTS &nbsp;&nbsp;&nbsp;</a>
+		<a  style="color: black" href="#">contact</a>
+	</div>
+</nav>
+        
+    
+<body>
+
+ <center> <p style="font-size: 50px; font-family:fantasy; background-color:lightcyan">Welcome to travellers.com </p>
+     <br>
+ 
+     
+<H1> "ONCE A YEAR GO SOMEPLACE YOU'VE NEVER BEEN BEFORE1" </H1>
+         <br> <br> <br> <br> <br> <br>
+      
+     <table id="section1" style="width:85%">   <tr> 
+        <th>    NORTH INDIA    </th> 
+        <th>    SOUTH INDIA   </th>
+        <th>    WEST INDIA   </th>
+        <th>    EAST INDIA   </th>
+         </tr>  
+     <tr>
+         <td>    <div class="container">    <img src="north%20india.jpg" alt="Avatar" class="image" style="height: 300px; width: 300px;">  <div class="overlay"> <a href="#section2" style="text-decoration: none;font-family: serif;color: white"> NORTH INDIA </a> </div></div> </td>
+          <td> <div class="container">  <img src="south.jpg" alt="Avatar" class="image" style="height: 300px; width: 300px;">  <div class="overlay"> <a href="#section3" style="text-decoration: none;font-family: serif;color: white"> SOUTH INDIA </a> </div></div> </td>
+         <td> <div class="container">   <img src="west.jpg" alt="Avatar" class="image" style="height: 300px; width: 300px;"> <div class="overlay"> <a href="#section4" style="text-decoration: none;font-family: serif;color: white">  WEST INDIA   </a> </div></div> </td>
+         <td><div class="container">     <img src="east.jpg" alt="Avatar" class="image" style="height: 300px; width: 300px;"><div class="overlay"> <a href="#section5" style="text-decoration: none;font-family: serif;color: white" >  EAST INDIA   </a> </div></div></td>
+         </tr></table> 
+    
+     <br> <br> <br> 
+     
+     
+    
+     
+     
+     
+      <h1 id="section2" style="float: left; font-family:cursive">      NORTH INDIA:  </h1>  
+     <table class="tb" style="width: 100%"> <tr> <th colspan="3"> PLACES </th>   </tr>
+         
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Agra">   AGRA <p style="font-size: 20px;color:blue"> (Agra is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 230 kilometres (140 mi) south-east of the  national capital New ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://www.google.com/maps/dir/Belagavi,+Karnataka/Agra,+Uttar+Pradesh/@21.4525612,71.6564065,6z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3bbf669f5095362f:0x7e34b31edcdefb5f!2m2!1d74.4976741!2d15.8496953!1m5!1m1!1s0x39740d857c2f41d9:0x784aef38a9523b42!2m2!1d78.0080745!2d27.1766701">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="agra.html" style="font-size: 20px;text-decoration: none"> view images </a> </button>  <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button> </td><br> </tr> 
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Shimla">   SHIMLA <p style="font-size: 20px;color:blue"> (Shimla is the capital and the largest city of the northern Indian state of Himachal Pradesh. In 1864, Shimla was declared as the summer capital of British ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/hfze55">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="shimla%20video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Manali">   MANALI <p style="font-size: 20px;color:blue"> (Manali is a town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh. ... It is situated in the northern end of the Kullu Valley ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/ebtx2g">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button><button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Haridwar">   HARIDAWAR <p style="font-size: 20px;color:blue"> (Haridwar is a city and municipal corporation in the Haridwar district of Uttarakhand, India. With a population of 228,832 in 2011, it is the second-largest... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/w5ggzd">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Amritsar">  AMRITSAR <p style="font-size: 20px;color:blue"> (Amritsar historically also known as Rāmdāspur and colloquially as Ambarsar, is the second largest city in the Indian state of Punjab, after Ludhiana... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/nnoquz">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Varanasi"> VARANASI  <p style="font-size: 20px;color:blue"> (Located on the left bank of the Ganges river in southeastern Uttar Pradesh state of northern India, it is 692 kilometres (430 mi) southeast of India's capital... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/r7vqdk">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+          <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Mathura"> MATHURA  <p style="font-size: 20px;color:blue"> (Mathura was the capital of the kingdom of Surasena, ruled by Kansa, the maternal uncle of Krishna. Mathura is part of the Lord Krishna circuit ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/l7seq1">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Kashmir">  KASHMIR  <p style="font-size: 20px;color:blue"> (Kashmir is the northernmost geographical region of the Indian subcontinent. Until the mid-19th century, the term "Kashmir" denoted only the Kashmir Valley ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/ubxsqv">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Ladakh"> LADAKH     <p style="font-size: 20px;color:blue"> (Ladakh is a region administered by India as a union territory which constitutes a part of the larger Kashmir region and has been the subject of dispute ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/q51lnj">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Delhi">DELHI    <p style="font-size: 20px;color:blue"> (Delhi, officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India containing New Delhi, the capital of India ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/rzges9">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+          </table>
+     
+      <button style="background-color:white;border-radius: 10px;float: right"> <a href="#section1" style="font-size: 20px;text-decoration: none;color:black;font-family: serif">  🢁TOP</a> </button>   
+     
+     
+     
+     <h1 id="section3" style="float: left; font-family:cursive">SOUTH INDIA:</h1>  
+     <table class="tb" style="width: 100%"> <tr> <th colspan="3"> PLACES </th>   </tr>
+         
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Agra">   AGRA <p style="font-size: 20px;color:blue"> (Agra is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 230 kilometres (140 mi) south-east of the  national capital New ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://www.google.com/maps/dir/Belagavi,+Karnataka/Agra,+Uttar+Pradesh/@21.4525612,71.6564065,6z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3bbf669f5095362f:0x7e34b31edcdefb5f!2m2!1d74.4976741!2d15.8496953!1m5!1m1!1s0x39740d857c2f41d9:0x784aef38a9523b42!2m2!1d78.0080745!2d27.1766701">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="https://rb.gy/fshhfl" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button> </td><br> </tr> 
+         
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Shimla">   SHIMLA <p style="font-size: 20px;color:blue"> (Shimla is the capital and the largest city of the northern Indian state of Himachal Pradesh. In 1864, Shimla was declared as the summer capital of British ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/hfze55">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Manali">   MANALI <p style="font-size: 20px;color:blue"> (Manali is a town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh. ... It is situated in the northern end of the Kullu Valley ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/ebtx2g">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Haridwar">   HARIDAWAR <p style="font-size: 20px;color:blue"> (Haridwar is a city and municipal corporation in the Haridwar district of Uttarakhand, India. With a population of 228,832 in 2011, it is the second-largest... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/w5ggzd">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Amritsar">  AMRITSAR <p style="font-size: 20px;color:blue"> (Amritsar historically also known as Rāmdāspur and colloquially as Ambarsar, is the second largest city in the Indian state of Punjab, after Ludhiana... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/nnoquz">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Varanasi"> VARANASI  <p style="font-size: 20px;color:blue"> (Located on the left bank of the Ganges river in southeastern Uttar Pradesh state of northern India, it is 692 kilometres (430 mi) southeast of India's capital... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/r7vqdk">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+          <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Mathura"> MATHURA  <p style="font-size: 20px;color:blue"> (Mathura was the capital of the kingdom of Surasena, ruled by Kansa, the maternal uncle of Krishna. Mathura is part of the Lord Krishna circuit ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/l7seq1">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Kashmir">  KASHMIR  <p style="font-size: 20px;color:blue"> (Kashmir is the northernmost geographical region of the Indian subcontinent. Until the mid-19th century, the term "Kashmir" denoted only the Kashmir Valley ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/ubxsqv">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Ladakh"> LADAKH     <p style="font-size: 20px;color:blue"> (Ladakh is a region administered by India as a union territory which constitutes a part of the larger Kashmir region and has been the subject of dispute ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/q51lnj">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Delhi">DELHI    <p style="font-size: 20px;color:blue"> (Delhi, officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India containing New Delhi, the capital of India ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/rzges9">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+          </table>
+     
+     
+     
+     
+     
+     <button style="background-color:white;border-radius: 10px;float: right"> <a href="#section1" style="font-size: 20px;text-decoration: none;color:black;font-family: serif">  🢁TOP</a> </button>   
+     
+     
+     
+     <h1 id="section4" style="float: left; font-family:cursive"> WEST INDIA:</h1>  
+     <table class="tb" style="width: 100%"> <tr> <th colspan="3"> PLACES </th>   </tr>
+         
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Agra">   AGRA <p style="font-size: 20px;color:blue"> (Agra is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 230 kilometres (140 mi) south-east of the  national capital New ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://www.google.com/maps/dir/Belagavi,+Karnataka/Agra,+Uttar+Pradesh/@21.4525612,71.6564065,6z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3bbf669f5095362f:0x7e34b31edcdefb5f!2m2!1d74.4976741!2d15.8496953!1m5!1m1!1s0x39740d857c2f41d9:0x784aef38a9523b42!2m2!1d78.0080745!2d27.1766701">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="https://rb.gy/fshhfl" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td><br> </tr> 
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Shimla">   SHIMLA <p style="font-size: 20px;color:blue"> (Shimla is the capital and the largest city of the northern Indian state of Himachal Pradesh. In 1864, Shimla was declared as the summer capital of British ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/hfze55">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Manali">   MANALI <p style="font-size: 20px;color:blue"> (Manali is a town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh. ... It is situated in the northern end of the Kullu Valley ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/ebtx2g">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Haridwar">   HARIDAWAR <p style="font-size: 20px;color:blue"> (Haridwar is a city and municipal corporation in the Haridwar district of Uttarakhand, India. With a population of 228,832 in 2011, it is the second-largest... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/w5ggzd">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Amritsar">  AMRITSAR <p style="font-size: 20px;color:blue"> (Amritsar historically also known as Rāmdāspur and colloquially as Ambarsar, is the second largest city in the Indian state of Punjab, after Ludhiana... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/nnoquz">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Varanasi"> VARANASI  <p style="font-size: 20px;color:blue"> (Located on the left bank of the Ganges river in southeastern Uttar Pradesh state of northern India, it is 692 kilometres (430 mi) southeast of India's capital... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/r7vqdk">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+          <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Mathura"> MATHURA  <p style="font-size: 20px;color:blue"> (Mathura was the capital of the kingdom of Surasena, ruled by Kansa, the maternal uncle of Krishna. Mathura is part of the Lord Krishna circuit ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/l7seq1">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Kashmir">  KASHMIR  <p style="font-size: 20px;color:blue"> (Kashmir is the northernmost geographical region of the Indian subcontinent. Until the mid-19th century, the term "Kashmir" denoted only the Kashmir Valley ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/ubxsqv">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Ladakh"> LADAKH     <p style="font-size: 20px;color:blue"> (Ladakh is a region administered by India as a union territory which constitutes a part of the larger Kashmir region and has been the subject of dispute ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/q51lnj">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Delhi">DELHI    <p style="font-size: 20px;color:blue"> (Delhi, officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India containing New Delhi, the capital of India ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/rzges9">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+          </table>
+     
+     
+     
+     <button style="background-color:white;border-radius: 10px;float: right"> <a href="#section1" style="font-size: 20px;text-decoration: none;color:black;font-family: serif">  🢁TOP</a> </button>   
+     
+     
+     
+     <h1 id="section5" style="float: left; font-family:cursive"> EAST INDIA:</h1>  
+     <table class="tb" style="width: 100%"> <tr> <th colspan="3"> PLACES </th>   </tr>
+         
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Agra">   AGRA <p style="font-size: 20px;color:blue"> (Agra is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 230 kilometres (140 mi) south-east of the  national capital New ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://www.google.com/maps/dir/Belagavi,+Karnataka/Agra,+Uttar+Pradesh/@21.4525612,71.6564065,6z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3bbf669f5095362f:0x7e34b31edcdefb5f!2m2!1d74.4976741!2d15.8496953!1m5!1m1!1s0x39740d857c2f41d9:0x784aef38a9523b42!2m2!1d78.0080745!2d27.1766701">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="https://rb.gy/fshhfl" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td><br> </tr> 
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Shimla">   SHIMLA <p style="font-size: 20px;color:blue"> (Shimla is the capital and the largest city of the northern Indian state of Himachal Pradesh. In 1864, Shimla was declared as the summer capital of British ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/hfze55">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Manali">   MANALI <p style="font-size: 20px;color:blue"> (Manali is a town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh. ... It is situated in the northern end of the Kullu Valley ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/ebtx2g">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Haridwar">   HARIDAWAR <p style="font-size: 20px;color:blue"> (Haridwar is a city and municipal corporation in the Haridwar district of Uttarakhand, India. With a population of 228,832 in 2011, it is the second-largest... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/w5ggzd">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Amritsar">  AMRITSAR <p style="font-size: 20px;color:blue"> (Amritsar historically also known as Rāmdāspur and colloquially as Ambarsar, is the second largest city in the Indian state of Punjab, after Ludhiana... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/nnoquz">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Varanasi"> VARANASI  <p style="font-size: 20px;color:blue"> (Located on the left bank of the Ganges river in southeastern Uttar Pradesh state of northern India, it is 692 kilometres (430 mi) southeast of India's capital... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/r7vqdk">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+          <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Mathura"> MATHURA  <p style="font-size: 20px;color:blue"> (Mathura was the capital of the kingdom of Surasena, ruled by Kansa, the maternal uncle of Krishna. Mathura is part of the Lord Krishna circuit ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/l7seq1">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Kashmir">  KASHMIR  <p style="font-size: 20px;color:blue"> (Kashmir is the northernmost geographical region of the Indian subcontinent. Until the mid-19th century, the term "Kashmir" denoted only the Kashmir Valley ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/ubxsqv">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Ladakh"> LADAKH     <p style="font-size: 20px;color:blue"> (Ladakh is a region administered by India as a union territory which constitutes a part of the larger Kashmir region and has been the subject of dispute ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/q51lnj">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+         
+         <tr> <td> <B> <a id="demo10" href="https://en.wikipedia.org/wiki/Delhi">DELHI    <p style="font-size: 20px;color:blue"> (Delhi, officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India containing New Delhi, the capital of India ... ........click to know more)</p>   </a>   </B> <button id="demo11">  <a id="demo10" href="https://rb.gy/rzges9">   <img id="demo09" src="map.png" width="70px" height="50px"> </a></button><button id="demo11" > <a href="####" style="font-size: 20px;text-decoration: none"> view images </a> </button> <button style="width:3%;height: 15%">  <a href="aagra video.html" style="font-size: 20px;text-decoration: none"> <img src="video.png" width="40%" height="300%">   </a> </button></td> </tr>
+          </table>
+     <button style="background-color:white;border-radius: 10px;float: right"> <a href="#section1" style="font-size: 20px;text-decoration: none;color:black;font-family: serif">  🢁TOP</a> </button> 
+     
+     
+     
+      
+      
+      
